@@ -28,4 +28,4 @@ app.include_router(vote.router)
 
 @app.get("/")
 def read_root():
-    return {"message": "Real Estate AI Tool API"}
+    return {"message": "Hello World!!!!!"}
